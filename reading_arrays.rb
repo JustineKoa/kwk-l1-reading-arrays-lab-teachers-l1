@@ -35,8 +35,8 @@ end
 def first_second_and_third_students
   # Write a solution that returns the first, second and third students
   temp = []
-  temp[0] = STUDENT_NAMES.first
-  temp[1] = STUDENT_NAMES[1]
-  temp[2] = STUDENT_NAMES[2]
+  temp << STUDENT_NAMES.first
+  temp.push STUDENT_NAMES[1]
+  temp << STUDENT_NAMES[2]
   return temp
 end
