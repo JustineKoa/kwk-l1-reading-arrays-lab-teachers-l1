@@ -18,3 +18,13 @@ items.each do |item|
 end
 
 puts expensive_items
+
+cart2 = [10,20,30,60]
+total_price = 0
+
+cart2.each do |item|
+  total_price += item
+end 
+
+puts total_price
+
