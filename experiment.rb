@@ -1,5 +1,5 @@
 cart = [4,5,6]
-tax = 0.09
+tax = 1
 updated_cart = []
 
 cart.each do |item|
